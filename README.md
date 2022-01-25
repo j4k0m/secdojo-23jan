@@ -196,3 +196,5 @@ The malware will generate a key at the start that will use to encrypt all the fi
 
 
 ![image](https://user-images.githubusercontent.com/48088579/151052005-ab7e6403-4a21-4052-8099-3a0cf4b9284d.png)
+
+The malware will use the computer name and mac address as key components to generate the key, and the key is formatted in MD5 format.
