@@ -153,7 +153,8 @@ Once you deduce the encryption key used by the malware, you can decrypt and subm
 
 IP: 172.16.4.239
 
-### RDP Connection: rdesktop -u Administrator -p "bJEhU7R7oNYv5weWf*yhig6SnM.-Yg4s" 172.16.4.239
+### RDP Connection: `rdesktop -u Administrator -p "bJEhU7R7oNYv5weWf*yhig6SnM.-Yg4s" 172.16.4.239`
+
 
 
 ![image](https://user-images.githubusercontent.com/48088579/151047933-832d3a8f-d71c-46d6-9807-0858a01075e1.png)
