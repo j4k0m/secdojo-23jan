@@ -153,7 +153,7 @@ Once you deduce the encryption key used by the malware, you can decrypt and subm
 
 IP: 172.16.4.239
 
-### RDP Connection: `rdesktop -u Administrator -p "bJEhU7R7oNYv5weWf*yhig6SnM.-Yg4s" 172.16.4.239`
+### RDP Connection: `rdesktop -u Administrator -p "bJEhU7R7oNYv5weWf*yhig6SnM.-Yg4s" -r disk:shared=/home/kali/Desktop 172.16.4.239`
 
 
 
