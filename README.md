@@ -208,3 +208,9 @@ The malware will use the computer name and mac address as key components to gene
 ![image](https://user-images.githubusercontent.com/48088579/151053630-c83d1671-e646-41ee-8d75-814804f43865.png)
 
 Knowing those components we can try and search with them in the process dump.
+
+### Getting process dump file:
+
+In ProcessExplorer create Full dump of the process:
+
+![image](https://user-images.githubusercontent.com/48088579/151054070-7661bcbb-024f-40ea-b329-aa669f6c193e.png)
