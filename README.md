@@ -38,8 +38,38 @@ Nmap done: 1 IP address (1 host up) scanned in 10.29 seconds
 
 ```
 
-## FTP 21/tcp Port Knocking:
+## FTP 21/tcp Port Knocking: nmap -p21 -sV -sC 172.16.4.74
 
 ```bash
 nmap --script firewall-bypass 172.16.4.74
+```
+
+## FTP Enumaration:
+
+```bash
+Starting Nmap 7.91 ( https://nmap.org ) at 2022-01-25 19:10 UTC
+Nmap scan report for 172.16.4.74
+Host is up (0.00031s latency).
+
+PORT   STATE SERVICE VERSION
+21/tcp open  ftp     vsftpd 3.0.3
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+|_-rw-r--r--    1 0        0            5930 Aug 28  2019 login.pcap
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to ::ffff:172.16.4.244
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 5
+|      vsFTPd 3.0.3 - secure, fast, stable
+|_End of status
+Service Info: OS: Unix
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 0.74 seconds
 ```
