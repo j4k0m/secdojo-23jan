@@ -177,6 +177,8 @@ Source: https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns
 
 
 decryptor101.exe: a binary to decrypt the encrypted files with a key.
+
+
 ![image](https://user-images.githubusercontent.com/48088579/151049848-7ba77726-2e14-47a0-8c87-e4dc9a8597df.png)
 
 r101.dll: where all the magic happen.
