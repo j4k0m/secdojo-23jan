@@ -137,3 +137,8 @@ $
 ## Ransomware101
 
 ![image](https://user-images.githubusercontent.com/48088579/151046357-ecd91039-7d91-480c-a57c-25a7633ccabf.png)
+
+### Lab Description
+Ransomware101 is a scenario that represents a typical case of a Windows machine hit by ransomware, a malware that encrypts all personal victim data in exchange for a ransom.
+As an investigator, you must first locate and analyze the malware using reverse engineering techniques to be able to understand its infection mechanism.
+Once you deduce the encryption key used by the malware, you can decrypt and submit the encrypted flag located at C:\Users\Administrator\Desktop\proof.txt.
