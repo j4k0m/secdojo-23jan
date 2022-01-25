@@ -224,7 +224,7 @@ Computer Name: `EC2AMAZ-59S0107`
 
 ![image](https://user-images.githubusercontent.com/48088579/151054800-222a4164-ad0d-490f-9b43-1ef91708f8d6.png)
 
-And we can notice a MD5 format string: `08780acf63112fbaf55c96ca5ef0b816` and key components `EC2AMAZ-59S010706-AE-70-11-A2-2C`, and now we can use `08780acf63112fbaf55c96ca5ef0b816 `  to decrypt the files.
+And we can notice a MD5 format string: `08780acf63112fbaf55c96ca5ef0b816` and key components `EC2AMAZ-59S010706-AE-70-11-A2-2C`, and now we can use `08780acf63112fbaf55c96ca5ef0b816`  to decrypt the files.
 
 ### Decryption:
 
