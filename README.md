@@ -16,7 +16,7 @@ The purpose of this lab is to learn how to perform network packet analysis in or
 
 IP: 172.16.4.74
 
-### Nmap Scan: nmap -sC -sV 172.16.4.74
+### Nmap Scan: `nmap -sC -sV 172.16.4.74`
 
 ```bash
 Starting Nmap 7.91 ( https://nmap.org ) at 2022-01-25 19:04 UTC
@@ -47,7 +47,7 @@ knock 172.16.4.74 21
 nmap --script firewall-bypass 172.16.4.74
 ```
 
-### FTP Enumaration: nmap -sC -sV -p21 172.16.4.74
+### FTP Enumaration: `nmap -sC -sV -p21 172.16.4.74`
 
 ```bash
 Starting Nmap 7.91 ( https://nmap.org ) at 2022-01-25 19:10 UTC
@@ -77,7 +77,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 0.74 seconds
 ```
 
-### FTP Anonymous Login: ftp 172.16.4.74
+### FTP Anonymous Login: `ftp 172.16.4.74`
 
 ```bash
 Connected to 172.16.4.74.
@@ -102,7 +102,7 @@ local: login.pcap remote: login.pcap
 ftp> 
 ```
 
-### `login.pcap` Analysis: strings login.pcap | less
+### `login.pcap` Analysis: `strings login.pcap | less`
 
 ![image](https://user-images.githubusercontent.com/48088579/151044232-5ddc1ac1-8c8b-44dc-9efb-122d3ef9730d.png)
 
