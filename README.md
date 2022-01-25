@@ -1,5 +1,5 @@
 # secdojo-23jan
-SecDojo 23jan CTF writeups.
+SecDojo 23jan CTF writeup.
 
 ##
 ![image](https://user-images.githubusercontent.com/48088579/151042148-acab8117-1cc0-400e-87de-209a5c9f3243.png)
