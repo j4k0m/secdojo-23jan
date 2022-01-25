@@ -214,3 +214,10 @@ Knowing those components we can try and search with them in the process dump.
 In ProcessExplorer create Full Dump of the process:
 
 ![image](https://user-images.githubusercontent.com/48088579/151054070-7661bcbb-024f-40ea-b329-aa669f6c193e.png)
+
+### Getting the key:
+
+Computer Name: `EC2AMAZ-59S0107`
+
+![image](https://user-images.githubusercontent.com/48088579/151054265-a496e3f3-7fae-4ef6-897a-7690573d5425.png)
+
