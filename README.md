@@ -41,6 +41,7 @@ Nmap done: 1 IP address (1 host up) scanned in 10.29 seconds
 ### FTP 21/tcp Port Knocking:
 
 ```bash
+knock 172.16.4.74 21
 nmap --script firewall-bypass 172.16.4.74
 ```
 
