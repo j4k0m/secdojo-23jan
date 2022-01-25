@@ -167,3 +167,11 @@ This utility, which has the most comprehensive knowledge of auto-starting locati
 Source: https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns
 
 ![image](https://user-images.githubusercontent.com/48088579/151049112-c1110321-8de3-41ec-a688-5e8da9462c12.png)
+
+### Malware Files Location: `C:\ProgramData\Microsoft\`
+
+![image](https://user-images.githubusercontent.com/48088579/151049322-da545d5b-3e45-4ef5-9fa0-0471e62facb3.png)
+
+![image](https://user-images.githubusercontent.com/48088579/151049399-21418c60-f5c5-4487-b129-8e59e0394e44.png)
+
+
