@@ -98,3 +98,11 @@ local: login.pcap remote: login.pcap
 5930 bytes received in 0.00 secs (3.2539 MB/s)
 ftp> 
 ```
+
+### `login.pcap` Analysis: strings login.pcap | less
+
+![image](https://user-images.githubusercontent.com/48088579/151044232-5ddc1ac1-8c8b-44dc-9efb-122d3ef9730d.png)
+
+## User:
+
+![image](https://user-images.githubusercontent.com/48088579/151044341-81c93571-bb77-4578-a013-0611112d38f7.png)
