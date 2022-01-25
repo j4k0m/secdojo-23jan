@@ -106,3 +106,29 @@ ftp>
 ## User:
 
 ![image](https://user-images.githubusercontent.com/48088579/151044341-81c93571-bb77-4578-a013-0611112d38f7.png)
+
+## Privilege Escalation:
+
+```bash
+$ sudo -l
+Matching Defaults entries for kabayla on ip-172-16-4-74:
+    env_reset, mail_badpass, secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin
+
+User kabayla may run the following commands on ip-172-16-4-74:
+    (root) NOPASSWD: /usr/bin/wget
+$ 
+```
+
+### Using `wget` to download our public key in `.ssh` root folder:
+
+### In our pwnbox:
+
+![image](https://user-images.githubusercontent.com/48088579/151044744-42a0bbdb-027b-412a-abc3-7bb7354a98bb.png)
+
+### In the target machine:
+
+![image](https://user-images.githubusercontent.com/48088579/151044854-1d007ffd-7c70-439a-b932-12d6696e8101.png)
+
+# SSH Connection to root:
+
+![image](https://user-images.githubusercontent.com/48088579/151044910-3b577833-711f-45b1-bb8c-55909f5ff5eb.png)
