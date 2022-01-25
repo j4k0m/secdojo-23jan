@@ -133,3 +133,7 @@ $
 # SSH Connection to root:
 
 ![image](https://user-images.githubusercontent.com/48088579/151044910-3b577833-711f-45b1-bb8c-55909f5ff5eb.png)
+
+## Ransomware101
+
+![image](https://user-images.githubusercontent.com/48088579/151046357-ecd91039-7d91-480c-a57c-25a7633ccabf.png)
