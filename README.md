@@ -38,13 +38,13 @@ Nmap done: 1 IP address (1 host up) scanned in 10.29 seconds
 
 ```
 
-### FTP 21/tcp Port Knocking: nmap -p21 -sV -sC 172.16.4.74
+### FTP 21/tcp Port Knocking:
 
 ```bash
 nmap --script firewall-bypass 172.16.4.74
 ```
 
-### FTP Enumaration:
+### FTP Enumaration: nmap -sC -sV -p21 172.16.4.74
 
 ```bash
 Starting Nmap 7.91 ( https://nmap.org ) at 2022-01-25 19:10 UTC
