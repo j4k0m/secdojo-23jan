@@ -188,3 +188,11 @@ Source: https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns
 ### Reverse generation key algorithm in `r101.dll`:
 
 The malware will generate a key at the start and it will use to encrypt all the files, the malware will exclude the files with `.secdojo,.exe,.dll,.sys,.ps1,.lnk` extension in `C:\\Users\\Administrator\\Desktop` path.
+
+![image](https://user-images.githubusercontent.com/48088579/151051912-0fb6afda-8baf-41f3-bab3-cfa6d6a2b55c.png)
+
+
+![image](https://user-images.githubusercontent.com/48088579/151051983-ad093d6f-3278-4b66-bb11-be0c17e7ed22.png)
+
+
+![image](https://user-images.githubusercontent.com/48088579/151052005-ab7e6403-4a21-4052-8099-3a0cf4b9284d.png)
