@@ -211,6 +211,6 @@ Knowing those components we can try and search with them in the process dump.
 
 ### Getting process dump file:
 
-In ProcessExplorer create Full dump of the process:
+In ProcessExplorer create Full Dump of the process:
 
 ![image](https://user-images.githubusercontent.com/48088579/151054070-7661bcbb-024f-40ea-b329-aa669f6c193e.png)
