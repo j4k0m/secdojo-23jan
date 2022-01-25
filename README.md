@@ -106,6 +106,8 @@ ftp>
 
 ![image](https://user-images.githubusercontent.com/48088579/151044232-5ddc1ac1-8c8b-44dc-9efb-122d3ef9730d.png)
 
+NOTE: You can use `tshark`.
+
 ## User:
 
 ![image](https://user-images.githubusercontent.com/48088579/151044341-81c93571-bb77-4578-a013-0611112d38f7.png)
