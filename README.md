@@ -14,7 +14,7 @@ The purpose of this lab is to learn how to perform network packet analysis in or
 
 IP: 172.16.4.74
 
-## Nmap Scan: nmap -sC -sV 172.16.4.74
+### Nmap Scan: nmap -sC -sV 172.16.4.74
 
 ```bash
 Starting Nmap 7.91 ( https://nmap.org ) at 2022-01-25 19:04 UTC
@@ -38,13 +38,13 @@ Nmap done: 1 IP address (1 host up) scanned in 10.29 seconds
 
 ```
 
-## FTP 21/tcp Port Knocking: nmap -p21 -sV -sC 172.16.4.74
+### FTP 21/tcp Port Knocking: nmap -p21 -sV -sC 172.16.4.74
 
 ```bash
 nmap --script firewall-bypass 172.16.4.74
 ```
 
-## FTP Enumaration:
+### FTP Enumaration:
 
 ```bash
 Starting Nmap 7.91 ( https://nmap.org ) at 2022-01-25 19:10 UTC
@@ -72,4 +72,29 @@ Service Info: OS: Unix
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 0.74 seconds
+```
+
+### FTP Anonymous Login: ftp 172.16.4.74
+
+```bash
+Connected to 172.16.4.74.
+220 (vsFTPd 3.0.3)
+Name (172.16.4.74:kali): anonymous
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> ls
+200 PORT command successful. Consider using PASV.
+150 Here comes the directory listing.
+-rw-r--r--    1 0        0            5930 Aug 28  2019 login.pcap
+226 Directory send OK.
+ftp> get login.pcap
+local: login.pcap remote: login.pcap
+200 PORT command successful. Consider using PASV.
+150 Opening BINARY mode data connection for login.pcap (5930 bytes).
+226 Transfer complete.
+5930 bytes received in 0.00 secs (3.2539 MB/s)
+ftp> 
 ```
