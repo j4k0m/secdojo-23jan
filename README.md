@@ -176,10 +176,10 @@ Source: https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns
 
 
 
-decryptor101.exe: a binary to decrypt the encrypted files with a key.
+`decryptor101.exe`: a binary to decrypt the encrypted files with a key.
 
 
 ![image](https://user-images.githubusercontent.com/48088579/151050130-fa5b5f04-1aed-4dc5-b2c2-8106e4197c93.png)
 
 
-r101.dll: where all the magic happen.
+`r101.dll`: where all the magic happen.
