@@ -1,9 +1,11 @@
 # secdojo-23jan
 SecDojo 23jan CTF writeups.
 
-# Knock-It
 
 ![image](https://user-images.githubusercontent.com/48088579/151042148-acab8117-1cc0-400e-87de-209a5c9f3243.png)
+
+
+# Knock-It
 
 
 ### Lab Description
@@ -134,9 +136,11 @@ $
 
 ![image](https://user-images.githubusercontent.com/48088579/151044910-3b577833-711f-45b1-bb8c-55909f5ff5eb.png)
 
-## Ransomware101
 
 ![image](https://user-images.githubusercontent.com/48088579/151046357-ecd91039-7d91-480c-a57c-25a7633ccabf.png)
+
+## Ransomware101
+
 
 ### Lab Description
 Ransomware101 is a scenario that represents a typical case of a Windows machine hit by ransomware, a malware that encrypts all personal victim data in exchange for a ransom.
